@@ -1,0 +1,5 @@
+print("****ADDITION OF TWO NUMBER****")
+first=int(input("Enter First Number Here :) "))
+sec=int(input("Enter  Second Number Here :) "))
+c=first+sec
+print('ADDITION OF ',first ,'+',sec ,'is','=',c)
