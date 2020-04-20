@@ -1,0 +1,22 @@
+print("Hockey TEAM")
+fname=input("Enter your First Name here:) ")
+lname=input("Enter your last Name here:) ")
+#b=len(fname)
+#c=len(lname)
+#e=fname[0]
+#d=lname[0]
+
+if(len(fname)<10 and len(lname)<10 ):
+    print(fname.capitalize(),"",lname.capitalize())
+
+if(len(fname)>=10 and len(lname)<10 ):
+    print(fname[0].capitalize(), ". ", lname.capitalize())
+
+
+if(len(fname)<10 and len(lname)>=10 ):
+    print(fname.capitalize(),"",lname[0].capitalize(),'.')
+
+
+
+if (len(fname)>=10 and len(lname) >= 10):
+    print( lname.capitalize())
