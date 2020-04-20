@@ -1,0 +1,17 @@
+print("ROOM ALLOTEMENT ON THE BASICS OF YOUR FIRST LETTER OF NAME:")
+name=input("Enter your first name here :) ")
+name1=input("Enter your last name here :) ")
+if name[0].capitalize()=="A" or name[0].capitalize()=="B":
+    print(name.capitalize(),"should be in room AB")
+
+elif name[0].capitalize() == "C" or name[0].capitalize() == "B":
+        print(name.capitalize(), "should be in room CD")
+
+elif name1[0].capitalize() == "Z":
+    print(name.capitalize(),name1.capitalize(), "should be in room Z")
+else:
+    print(name.capitalize(),name1.capitalize(),"should be in room OTHER")
+
+
+
+
