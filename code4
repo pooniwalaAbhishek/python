@@ -1,0 +1,10 @@
+from datetime import  datetime,timedelta,date
+today=datetime.now()
+lday=today.date()
+day1=timedelta(days=1)
+yest=lday-day1
+print("Today date",lday)
+print("Yesterday date: ",yest)
+print("Enter which date you want: ")
+lweek=date(int(input("Enter year :")),int(input("Enter Month: )")),int(input("Enter day: ")))+timedelta(days=7)
+print("day one week from the date is entered is ",lweek)
