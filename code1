@@ -1,0 +1,4 @@
+star=input("Select any one Mr/Mrs/Ms :) ")
+first=input("Enter first name here :) ")
+last=input("Enter last name here :) ")
+print('NAME :)'+star.capitalize()+' '+first.capitalize()+' '+ last.capitalize())
