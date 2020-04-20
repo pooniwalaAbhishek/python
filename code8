@@ -1,0 +1,29 @@
+n=int(input("How many elements do you want in list? "))
+li=[]
+li2=[]
+li3=[]
+li4=[]
+for i in range(0,n):
+    e=input("Enter element here : ").capitalize()
+    li.append(e)
+
+for a in range(0, n):
+        b = int(input("Enter element position  here : "))
+        li2.append(b)
+for (i,a) in zip(li,li2):
+    if(len(i)==a):
+       # print(i.upper())
+        li3.append(i.upper())
+    elif(len(i)!=a):
+        #print(i.lower())
+        li4.append(i.lower())
+#print(li3,li4)
+li5=li3+li4
+print(li5[3])
+print(li5[4])
+print(li5[1])
+print(li5[0])
+print(li5[2])
+
+
+
